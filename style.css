@@ -1,5 +1,8 @@
+*{
+	font-size: 1rem;
+}
 body{
-	font-size: 1.2rem;
+	
 	font-family: sans-serif;
 	text-align: center;
 	background-color: #457b9d;
@@ -15,14 +18,15 @@ header {
     padding:10px;
 }
 h1{
+	font-size: 2.2rem;
 	font-family: comic-sans;
-	font-size: 2em;
+	
 }
 
 #profile{
 	border-radius: 50%;
-	width:  280px;
-	height: 240px;
+	width:  16rem;
+	height: 14rem;
 	padding: 2%;
 }
 
@@ -60,3 +64,26 @@ h3{
 	color: white;
 }
 
+@media (max-width: 450px) {
+	*{
+		font-size: 0.9rem;
+	}
+	h1{
+		font-size: 1.6rem;
+	}
+	h3{
+		padding: 1.5rem;
+		font-size: 1rem;
+	}
+	#profile{
+	border-radius: 50%;
+	width:  12rem;
+	height: 10rem;
+	padding: 2rem;
+}
+
+figcaption{
+	font-size: 1rem;
+}
+
+}
