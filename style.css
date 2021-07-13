@@ -22,7 +22,9 @@ h1{
 	font-family: comic-sans;
 	
 }
-
+figcaption{
+	font-style: italic;
+}
 #profile{
 	border-radius: 50%;
 	width:  16rem;
@@ -66,10 +68,11 @@ h3{
 
 @media (max-width: 450px) {
 	*{
-		font-size: 0.9rem;
+		font-size: 0.85rem;
 	}
 	h1{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
+
 	}
 	h3{
 		padding: 1.5rem;
@@ -84,6 +87,7 @@ h3{
 
 figcaption{
 	font-size: 1rem;
+	font-style: italic;
 }
 footer{
 	padding-bottom: 40px;
